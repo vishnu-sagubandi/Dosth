@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Birthday</title>
+    <link rel="stylesheet" href="Bdaystyles.css">
+  </head>
+  <body>
+     <section>
+        <h2>Happy Birthday</h2>
+        <h2>Asif</h2>
+        <div class="circle"></div>
+     </section>
+     <script type="text/javascript">
+       const pos=document.documentElement;
+       pos.addEventListener("mousemove",e=>{
+         pos.style.setProperty('--x',e.clientX + 'px');
+         pos.style.setProperty('--y',e.clientY + 'px');
+       })
+     </script>
+  </body>
+</html>
